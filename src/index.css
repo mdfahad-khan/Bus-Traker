@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom styles for the What We Do section */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.max-w-2xl {
+  max-width: 36rem; /* Adjust the maximum width as needed */
+}
+
+.fadeIn{
+    animation-name: slidein;
+    animation-duration: 1s;
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
